@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Tools-node2' }
+    agent { label 'Tools_node2' }
     stages {
         stage('Build') {
             steps {
