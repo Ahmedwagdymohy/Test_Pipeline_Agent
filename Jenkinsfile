@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                
                 echo 'Building...'
                 sh 'gcc -o ahmed main.c'
             }
