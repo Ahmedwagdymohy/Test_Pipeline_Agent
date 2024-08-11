@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Tools_node2' }
+    agent { label 'Tools2' }
     stages {
         stage('Check for Changes') {
             steps {
