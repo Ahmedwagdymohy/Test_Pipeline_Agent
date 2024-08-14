@@ -7,7 +7,7 @@ pipeline {
             steps {
                 
                 echo 'Building...'
-                sh 'gcc -o ahmed main.c'
+                
             }
         }
         stage('Test') {
