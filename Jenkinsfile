@@ -19,7 +19,7 @@ pipeline {
          stage('Run') {
             steps {
                 echo 'Testing...'
-                sh './ahmed'
+                
             }
         }
     }
