@@ -18,9 +18,24 @@ pipeline {
         }
          stage('Run') {
             steps {
-                echo 'Testing...'
+                echo 'Running.......'
                 
             }
         }
+        stage('Integration Testing') {
+            steps {
+                echo 'Integration Testing......'
+                
+            }
+        }
+        stage('Reporting') {
+            steps {
+                echo 'Reporting.......'
+                
+            }
+        }
+        
+    }
+    }
     }
 }
